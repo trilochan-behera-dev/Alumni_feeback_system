@@ -1,0 +1,141 @@
+/* NavBar  and Header CSS */
+header {
+  background-color: #0a3546;
+  padding: 0px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+
+.logo
+  {
+    height:90px;
+    width: 90px;
+  }
+
+#ni/*Navbar Item properties*/
+{
+ color: white;
+}
+#dm/* Navbar Dropdown menu*/
+{
+ color: black;
+}
+a:hover{
+	
+    background-color: green	;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  background-color: skyblue	;
+  color: black;
+}
+#sp
+{
+	padding-right: 30px;
+}
+.btn 
+{
+	height:40px;
+    width: 100px;
+}
+ .navbar
+  {
+    background-color: #2b647d;
+  }
+
+
+
+#userpname
+{
+  float: right;
+  position:absolute;
+  right: 130px;
+  color: white;
+}
+
+#logoutbtn
+{
+  float: right;
+  position:absolute;
+  right: 5px;
+  color: white;
+}
+#btnlogout
+{
+  height:40px;
+    width: 100px;
+    border-radius: 20px;
+    left: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*feedback form css*/
+
+.container-fluid
+ {
+ 	border: 2px groove ;
+ 	border-radius: 15px;
+ 	width: 1000px;
+ 	background-color: #75616133;
+ 	margin-top: 10px;
+ 	padding: 30px;
+
+ 	-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+ }
+ 
+label
+{
+font-size:16px;
+}
+.help-block
+{
+	color:red;
+	font-size: 12px;
+}
+
+textarea
+{
+	width: 100%;
+
+}
+.fheader
+{
+	text-align:center;
+	padding:5px;
+	margin-top:5px;
+}
+#sub
+{
+	height:40px;
+    width: 100px;
+    border-radius: 20px;
+    left: 20px;
+    float: center;
+    background-color: #0A69B7;
+
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}

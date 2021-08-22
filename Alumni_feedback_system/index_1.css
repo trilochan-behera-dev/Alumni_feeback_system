@@ -1,0 +1,259 @@
+/* -----------css for header and navbar---------------- */
+
+header {
+  background-color: #0a3546;
+  padding: 0px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.logo
+  {
+    height:90px;
+    width: 90px;
+  }
+
+
+  .navbar
+  {
+    background-color: #2b647d;
+  }
+/* -----------css for header and navbar---------------- */
+
+#ni/*Navbar Item properties*/
+{
+ color: white;
+}
+#dm/* Navbar Dropdown menu*/
+{
+ color: black;
+}
+a:hover{
+	
+    background-color: green	;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  background-color: skyblue	;
+  color: black;
+}
+#sp
+{
+	padding-right: 30px;
+}
+.btn 
+{
+	height:40px;
+    width: 100px;
+}
+
+
+
+/*body content*/
+.view
+{
+	background-image: url("abit2.jpg");	
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;
+	width:100%;
+	height:650px;	
+  color:#ffffff;
+}
+/*modal content*/
+.modal-body{
+	max-height:calc(100vh - 200px);
+	overflow-y:auto;
+}
+#alink
+{
+	color:#22ff47;
+	/*background-color: #d5e7ec;*/
+  background: rgba(40, 69, 71, 0);
+}
+
+
+#form_popup
+{
+  display: none;
+  position: fixed;
+  /*background-color: #d5e7ec;*/
+  right: 15px;
+  border: 3px groove #f1f1f1;
+  width:350px;
+  background: rgba(40, 69, 71, 0.73);
+
+}
+
+
+#cancel
+{
+float: right;
+}
+
+.container-fluid:target{
+
+display:block !important;
+
+}
+.help-block
+{
+  color:red;
+}
+
+#message1 
+{
+  color: #ff5e00;
+  font-size: 12px;
+}
+#message2
+{
+  color: #ff5e00;
+  font-size: 12px;
+}
+
+.fbody input[type=text],
+.fbody input[type=password]
+{
+  border:none;
+  border-bottom: 1px solid #000000;
+}
+.title
+{
+  text-align: center;
+}
+#logoutbtn
+{
+  float: right;
+  position:absolute;
+  right: 5px;
+  color: white;
+}
+
+#btnlogout
+{
+  height:40px;
+    width: 100px;
+    border-radius: 20px;
+    left: 20px;
+}
+#userpname
+{
+  float: right;
+  position:absolute;
+  right: 130px;
+  color: white;
+}
+#objective
+{
+
+  position:absolute;
+  text-align: center;
+  background-image: url("alumni3.jpg");
+  font-family: 'French Script MT';
+  font-style: oblique;;
+  color:black;
+  font-size: 50px;
+  text-shadow: 1px 1px coral, 
+                2px 2px coral, 
+                3px 3px white, 
+                4px 4px white, 
+                5px 5px green, 
+                6px 6px green;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height:300px;
+  width: 100%;
+}
+#event-table
+{
+  
+  position:absolute;
+  margin-top:  300px;
+  width: 100%;
+
+}
+.page-header h2{
+margin-top: 0;
+}
+table tr td:last-child a{
+margin-right: 0px;
+}
+#userpbody
+{
+  background-color: #f6eeee;
+}
+
+/* contact us page css*/
+#contact
+{
+  background-color:#5c6d7df2;
+  font-family:sans-serif;
+  
+  margin-bottom:10px;
+  color:white;
+  padding:30px;
+  letter-spacing:2px;
+  width: 800px;
+  border-radius: 5px;
+  }
+#contactlink
+{
+  color: white;
+}
+
+
+
+/*   user profile*/
+#readprof
+{
+padding:30px;
+border-right:2px solid black;
+border-radius: 20px;
+background-color: #c3cdd3;
+margin-top: 40px;
+margin-bottom: 40px;
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+
+
+
+  
+}
+/*-------------------------------------*/
+
+/*studentdatabase.php*/
+#addbtn{
+  float: right;
+  margin: 10px;
+  position:absolute;
+  right: 5px;
+  color: white;
+  width: 200px;
+}
+#searchbar
+{
+  width:200px;
+}
+
+
+
+/*--------------------------*/
+ 
+/* ------------ */
+
